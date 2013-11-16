@@ -1,5 +1,5 @@
-#ifndef SHADER_CODE_H_
-# define SHADER_CODE_H_
+#ifndef FRAG_CODE_H_
+# define FRAG_CODE_H_
 # define VAR_BACKGROUNDCOLOR "i"
 # define VAR_BASECOLOR "V"
 # define VAR_COLORITERATIONS "D"
@@ -26,11 +26,11 @@
 # define VAR_Y "S"
 # define VAR_YOFF "ad"
 # define VAR_Z "R"
-# define VAR_BULBCOLOR "z"
-# define VAR_BULBPOSITION "r"
-# define VAR_BULBREFLECT "n"
-# define VAR_BULBSPEC "l"
-# define VAR_BULBSPECEXP "M"
+# define VAR_OB1COLOR "z"
+# define VAR_OB1POSITION "r"
+# define VAR_OB1REFLECT "n"
+# define VAR_OB1SPEC "l"
+# define VAR_OB1SPECEXP "M"
 # define VAR_GLOWCOLOR "f"
 # define VAR_GLOWDIVISOR "o"
 # define VAR_GLOWSTRENGTH "b"
@@ -38,10 +38,10 @@
 # define VAR_LIGHTCOLOR "w"
 # define VAR_LIGHTPOSITION "a"
 # define VAR_LIGHTSTRENGTH "k"
-# define VAR_MENGERCOLOR "c"
-# define VAR_MENGERREFLECT "g"
-# define VAR_MENGERSPEC "u"
-# define VAR_MENGERSPECEXP "Z"
+# define VAR_OB2COLOR "c"
+# define VAR_OB2REFLECT "g"
+# define VAR_OB2SPEC "u"
+# define VAR_OB2SPECEXP "Z"
 # define VAR_SKYCOLOR "x"
 # define VAR_SUNCOLOR "v"
 # define VAR_SUNDIRECTION "m"
@@ -328,4 +328,4 @@ const char *frag_frag =
    "return f;"
  "}";
 
-#endif // SHADER_CODE_H_
+#endif // FRAG_CODE_H_
